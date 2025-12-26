@@ -54,7 +54,6 @@ const emit = defineEmits(['close']);
                             <ul>
                                 <li><strong>Diretor:</strong> {{ movie.director }}</li>
                                 <li><strong>Gêneros:</strong> {{ movie.gender?.join(', ') }}</li>
-                                <li><strong>ID do Banco:</strong> {{ movie.id || movie._id }}</li>
                             </ul>
                         </aside>
                     </div>
